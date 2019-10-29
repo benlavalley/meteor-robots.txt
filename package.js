@@ -6,7 +6,7 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
-	api.use('webapp@1.8.1', 'server');
+	api.use('webapp@1.7.4', 'server');
 	api.addFiles('robots.js', 'server');
 	api.export('robots', 'server');
 });
