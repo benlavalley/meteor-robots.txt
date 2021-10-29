@@ -5,7 +5,7 @@ Package.describe({
 	git: 'https://github.com/gadicc/meteor-robots.txt.git',
 });
 
-Package.on_use(function (api) {
+Package.onUse(function (api) {
 	api.use('webapp', 'server');
 	api.addFiles('robots.js', 'server');
 	api.export('robots', 'server');
